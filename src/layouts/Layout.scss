@@ -1,0 +1,13 @@
+@import "../sass/settings.scss";
+
+.Layout {
+  height: 100vh;
+
+  @include font-size(16);
+
+  &__page {
+    min-height: calc(100% - 144px);
+    padding: $spacing * 2 $spacing/2;
+    position: relative;
+  }
+}
